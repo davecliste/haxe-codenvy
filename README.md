@@ -2,7 +2,7 @@
 Haxe docker image - mainly created for use on codenvy.com
 
 ##Usage
-create a custom environment/Dockerfile in your codenvy project.
+Create a custom environment/Dockerfile in your codenvy project.
 
 Then replace the contents of the Dockerfile with the following:
 
