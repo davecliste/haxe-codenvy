@@ -6,9 +6,9 @@ create a custom environment/Dockerfile in your codenvy project.
 
 Then replace the contents of the Dockerfile with the following:
 
+```Dockerfile
 FROM davecliste/haxe
 
-```Dockerfile
 # Add project source files to docker image
 ADD             $src$ /home/user/
 
