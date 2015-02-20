@@ -10,7 +10,7 @@ Then replace the contents of the Dockerfile with the following:
 FROM davecliste/haxe
 
 # Add project source files to docker image
-ADD             $src$ /home/user/
+ADD         $src$ /home/user/
 
 
 # compile source files, copy bin/build/output files to apache dir and run apache server
