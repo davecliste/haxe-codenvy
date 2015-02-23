@@ -21,3 +21,4 @@ CMD         sudo chown -R www-data:www-data $SITE_DIR/ && \
             sudo service apache2 start && \
             sudo tail -f $APACHE_LOG_DIR/access.log -f $APACHE_LOG_DIR/error.log
 ```
+
