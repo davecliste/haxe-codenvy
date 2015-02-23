@@ -38,8 +38,8 @@ ENV			CODENVY_APP_PORT_80_HTTP 80
 RUN         wget -qO-  "http://www.openfl.org/builds/haxe/haxe-3.1.3-linux-installer.tar.gz"| tar -zx -C  /home/user/workspace
 RUN         echo y|/home/user/workspace/install-haxe.sh>/dev/null 2>&1
 RUN         haxelib install hxcpp
-RUN         haxelib install lime>/dev/null 2>&1
-RUN         echo y|haxelib run lime setup>/dev/null 2>&1
-RUN         lime install openfl>/dev/null 2>&1
-RUN			echo y|haxelib run openfl setup>/dev/null 2>&1
-RUN         haxelib install haxeui>/dev/null 2>&1
+RUN         haxelib install lime
+RUN         echo y|haxelib run lime setup
+RUN         lime install openfl
+RUN         echo y|haxelib run openfl setup
+RUN         haxelib install haxeui
